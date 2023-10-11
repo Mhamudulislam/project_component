@@ -1,0 +1,56 @@
+/* Root_My_start */
+:root
+{--col1:red; --col1:black; --col1:white; --col1:#dddd; --col1:#f0f0f0; --col1:#fff; --col1:#626262; --col1:green; --col1:salmon; --col1:skyblue; --col1:red; --col1:red; }
+/* Root_My_start */
+
+#talkbubble {
+    width: 120px;
+    height: 80px;
+    background: red;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 7%;
+    top: 80px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 23px solid red;
+}
+.mcall
+{margin: 0 10%;}
+
+
+
+
+
+
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    padding: 10px;
+}
+#circle:before {
+    content: "";
+    position: absolute;
+    right: 84.5%;
+    top: 226px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 23px solid red;
+}
+
+
+
+
